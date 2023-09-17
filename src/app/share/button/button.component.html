@@ -1,0 +1,8 @@
+<button
+  class="btn btn-success"
+  [class]="product.isAddedToCart ? 'btn-disabled' : ''"
+  (click)="emitProduct(product)"
+  [disabled]="product.isAddedToCart"
+>
+  {{label}}
+</button>

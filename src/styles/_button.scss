@@ -1,0 +1,23 @@
+@import '../styles/variable';
+
+.btn {
+  border-radius: $border-radius;
+  border: none;
+  padding: 0.5rem;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-success {
+  background-color: $primary-green;
+  color: $primary-white;
+}
+
+.btn-disabled, .btn-disabled:hover {
+  opacity: 0.5 !important;
+}
